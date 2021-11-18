@@ -1,9 +1,12 @@
-package assignments;
+package assignments.strings_assign;
 
-public class Test {
+public class Lower_upper_string {
+
     public static void main(String[] args) {
 
-        String str = "SidDheSh";
+        String str = "My Name is SiDDhesH";
+
+        System.out.println(" Given String : "+str);
 
         StringBuilder newStr = new StringBuilder(str);
 
@@ -12,13 +15,15 @@ public class Test {
             if (Character.isLowerCase(str.charAt(i))) {
 
                 newStr.setCharAt(i, Character.toUpperCase(str.charAt(i)));
+
             } else if (Character.isUpperCase(str.charAt(i))) {
 
-                newStr.setCharAt(i, Character.toLowerCase(str.charAt(i)));
+                newStr.setCharAt(i,Character.toLowerCase(str.charAt(i)));
+
+
             }
         }
 
-        System.out.println(newStr);
-
+        System.out.println("After Conversion : " +newStr);
     }
 }

@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java_Selenium_Udemy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Automation_Framework" target="8" />
       <module name="Java_Selenium_Udemy" target="8" />
       <module name="SeleniumDemo" target="8" />
     </bytecodeTargetLevel>
