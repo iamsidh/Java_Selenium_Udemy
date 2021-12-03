@@ -2,34 +2,31 @@ package assignments;
 
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class LargestAndSmallestNumber_Array {
 
     public static void main(String[] args) {
 
 
-        int array[] = new int[]{33, 76, 98, 45, 76, 99, 12, 35};
-
-        int largest = array[0];
-
-        int smallest = array[0];
+        int[] array = {11, 21, 33, 44, 52, 16, 73};
 
 
-        for (int i = 0; i < array.length; i++) {
+        Arrays.sort(array);
 
-            if (array[i] > largest) {
+        System.out.println(array[1]);
 
-                largest = array[i];
+        System.out.println(array[array.length-2]);
 
-            } else if (array[i] < smallest) {
 
-                smallest = array[i];
 
-            }
 
-        }
-        System.out.println("Largest Number of array "+largest);
 
-        System.out.println("Smallest Number of array "+smallest);
+
+
+
     }
 }
 

@@ -15,20 +15,20 @@ public class DuplicateCharsInString {
 
         for (int i = 0; i < str.length(); i++) {
 
-            cnt=1;
+            cnt = 1;
 
             for (int j = i + 1; j < str.length(); j++) {
 
-                if (ch[i] == ch[j] && ch[i]!=' ') {
+                if (ch[i] == ch[j] && ch[i] != ' ') {
 
                     //Set string[j] to 0 to avoid printing visited character
 
-                   ch[j]=0;
-                   cnt++;
+                    ch[j] = 0;
+                    cnt++;
                 }
             }
 
-            if(cnt>1 && ch[i] !=0){
+            if (cnt > 1 && ch[i] != 0) {
 
                 System.out.println(ch[i]);
             }

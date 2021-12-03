@@ -8,7 +8,7 @@ public class PalindromNumber {
 
         int sum = 0;  // for checking number with actual number
 
-        int temp;   // for stoaring actual number
+        int temp;   // for storing actual number
 
         int n = 454;  //Number to be checked
 

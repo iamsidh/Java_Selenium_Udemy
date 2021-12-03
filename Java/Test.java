@@ -1,11 +1,13 @@
 public class Test {
 
-    public  void show(){
 
-        System.out.println(" this is show");
-    }
 
     public static void main(String args){
+
+
+        System.out.println("Siddhesh"+100+100);
+
+        System.out.println(100+100+"Sidh");
 
 
     }

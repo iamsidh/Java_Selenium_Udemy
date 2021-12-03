@@ -19,8 +19,7 @@ public class  ConstructorOverloading
 
         public static void main(String[] args) {
 
-    abc a = new abc(7
-    );
+    abc a = new abc(7);
 
         }
 

@@ -4,8 +4,10 @@ public class White_space_remove {
 
     public static void main(String[] args) {
 
-        String s = " Siddhesh     ";
+        String s = " India    is    my country";
 
-        System.out.println(s.trim());
+       String s1= s.replaceAll("( )+"," ");
+
+        System.out.println(s1);
     }
 }

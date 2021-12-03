@@ -1,5 +1,7 @@
 package assignments.strings_assign;
 
+import java.util.Iterator;
+
 public class Lower_upper_string {
 
     public static void main(String[] args) {
@@ -9,6 +11,7 @@ public class Lower_upper_string {
         System.out.println(" Given String : "+str);
 
         StringBuilder newStr = new StringBuilder(str);
+
 
         for (int i = 0; i < str.length(); i++) {
 

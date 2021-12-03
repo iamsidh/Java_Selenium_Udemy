@@ -2,6 +2,8 @@ package assignments;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class HashMap_HashSet {
 
@@ -12,11 +14,23 @@ public class HashMap_HashSet {
 
         hm.put("abc", 2);
 
+        Set<String> keys = hm.keySet();
+
+        for(String key : keys){
+
+            System.out.println("Keys -->" +key+"   "+ hm.get(key));
+        }
+
+        for(Map.Entry<String,Integer> entry : hm.entrySet()){
+
+            System.out.println(entry.getKey() + "    "+ entry.getValue());
+        }
 
 
 
 
-        System.out.println(hm);
+
+        //System.out.println(hm);
 
     }
 
@@ -33,6 +47,8 @@ public class HashMap_HashSet {
             System.out.println(a);
         }
     }
+
+
 
     public static void main(String[] args) {
 
