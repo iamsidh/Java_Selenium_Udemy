@@ -4,7 +4,7 @@ public class ReverseWordOrder {
 
     public static void main(String[] args) {
 
-        String str = "My name is Siddhesh";
+        String str = "My name is Dattaraj";
         //output: "YM Eman Si JarattaD";
 
         String[] str1 = str.split(" ");

@@ -11,6 +11,7 @@ public class Flipkart {
 
     public static void main(String[] args) throws InterruptedException {
 
+
         WebDriver driver = new ChromeDriver();
 
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -21,11 +22,11 @@ public class Flipkart {
 
         driver.get("https://www.flipkart.com/");
 
-        Thread.sleep(3000);
+
 
         driver.findElement(By.xpath("/html/body/div[2]/div/div/button")).click();
 
-        driver.findElement(By.xpath("//input[@placeholder='Search for products, brands and more']")).sendKeys("Pen Drive");
+        driver.findElement(By.xpath("//input[@placeholder='Search for products, brands and more']")).sendKeys("mobiles");
 
         driver.findElement(By.xpath("//input[@placeholder='Search for products, brands and more']")).sendKeys(Keys.ENTER);
 

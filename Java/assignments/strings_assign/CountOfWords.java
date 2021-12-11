@@ -8,22 +8,22 @@ public class CountOfWords {
 
         String str = "My Name is Siddhesh Sharad Madgaonkar My Age is 27 ";
 
-        String[] split = str.split(" ");
+        String[] strArray = str.split(" ");
 
         Map<String, Integer> map = new HashMap<>();
 
 
-        for (int i = 0; i < split.length; i++) {
+        for (int i = 0; i < strArray.length; i++) {
 
-            if (map.containsKey(split[i])) {
+            if (map.containsKey(strArray[i])) {
 
-                int count = map.get(split[i]);
+                int count = map.get(strArray[i]);
 
-                map.put(split[i], count + 1);
+                map.put(strArray[i], count + 1);
 
             } else {
 
-                map.put(split[i], 1);
+                map.put(strArray[i], 1);
             }
         }
 
