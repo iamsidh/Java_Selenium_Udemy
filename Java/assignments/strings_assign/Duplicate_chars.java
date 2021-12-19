@@ -17,7 +17,7 @@ public class Duplicate_chars {
 
             for (int j = i + 1; j < s.length(); j++) {
 
-                if (ch[i] == ch[j]) {
+                if (ch[i] == ch[j] && ch[i]!=' ') {
 
                     System.out.print(ch[j]);
                     cnt++;
